@@ -1,0 +1,15 @@
+.hero-body {
+  // position: relative;
+  padding: 0rem 1.3rem;
+}
+
+@media screen and (min-width: 769px) {
+  .hero-body {
+    z-index: 1;
+    padding: 0rem 3.5rem;  
+  }
+}
+
+.hero {
+  max-height: 400px;
+}

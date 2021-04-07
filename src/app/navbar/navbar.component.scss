@@ -1,0 +1,59 @@
+.navbar {
+    background-color: inherit;
+}
+.navbar-item{
+    color: #fff;
+    font-weight: 500;
+    font-size: 0.9 rem;
+}
+
+.navbar-item, .navbar-link {
+    padding: 0.5rem 3rem;
+}
+
+a.navbar-item:hover, .navbar-link:hover {
+    color: #6c4099;
+    background-color: inherit;
+}
+
+.active, a.navbar-item.active:hover{
+    color: #6c4099;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.my-nav{
+    display:flex;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    justify-content: center;
+}
+
+.my-nav .navbar-item{
+    padding: 0.5rem 2rem
+}
+
+.navbar-end{
+    margin-left: 33%;
+}
+
+.title{
+    background-color: inherit;
+    position: absolute;
+    width: 90%;
+    margin: 1rem;
+}
+
+a.navbar-item, .navbar-link {
+    margin-top: 60px;
+}
+
+@media screen and (min-width: 769px) {
+    .title{
+        background-color: inherit;
+        position: absolute;
+        width: 100%;
+        margin: 1rem;
+    }
+  }
